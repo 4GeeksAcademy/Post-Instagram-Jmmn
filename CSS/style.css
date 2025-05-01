@@ -1,0 +1,40 @@
+body {
+    background: #C8E6C9;
+    margin: 0;
+}
+header {
+    background: #FAFAFA;
+}
+header h1 {
+    margin: 0;
+}
+div {
+    box-sizing: border-box;
+}
+div.publicacion {
+    background: white;
+    margin-top: 10px;
+}
+div.contenedor {
+    width: 600px;
+    margin: auto;
+    padding-top: 40px;
+}
+div.publicacion img {
+    width: 100%;
+}
+div.publicacion h2, div.publicacion p{
+    padding: 10px;
+    margin: 0;
+}
+div.publicacion .post-header div:first-child {
+    display: inline-block;
+    width: 80%;
+}
+div.publicacion .post-header div:last-child {
+    display: inline-block;
+    padding: 10px;
+    width: 20%;
+    text-align: right;
+    color: gray;
+  }
